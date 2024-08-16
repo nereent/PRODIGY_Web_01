@@ -1,0 +1,111 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+.navbar
+{
+    /* background-color: darksalmon; */
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+}
+.navbar ul 
+{
+    background-color: #7b7453;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0px;
+}
+.navbar a 
+{
+    color:#2d2d23;
+    font-size: 18px;
+}
+.navbar a:hover 
+{
+    color: #d4c7b4;
+}
+.item
+{
+    /* background-color: #2d2d23; */
+    padding: 30px ;
+    margin:  auto;
+    display: block;
+    /* margin: 2px 0px 0px 0px; */
+    /* background-color: #072e33; */
+}
+.home
+{
+    background-color: #d4c7b4;
+    padding: 10px 20px;
+    margin: 25px auto;
+}
+.home h1 
+{
+    padding: 20px;
+    margin: 5px ;
+}
+.home p 
+{
+    padding: 10px;
+    margin: 5px 5px;
+}
+.contact
+{
+    background-color: #d4c7b4;
+    padding: 10px 20px ;
+    margin: 25px auto;
+}
+.contact h1 
+{
+    
+    padding: 20px;
+    margin: 5px ;
+}
+.contact p 
+{
+    padding: 10px;
+    margin: 5px ;
+    margin: 5px 5px;
+}
+.services
+{
+    background-color: #d4c7b4;
+    padding: 10px 20px ;
+    margin: 25px auto;
+}
+.services h1 
+{
+    
+    padding: 20px;
+    margin: 5px ;
+}
+.services p 
+{
+    padding: 10px;
+    margin: 5px 5px;
+}
+.about
+{
+    background-color: #d4c7b4;
+    padding: 10px 20px ;
+    margin: 25px auto;
+}
+.about h1 
+{
+    padding: 20px;
+    margin: 5px ;
+}
+.about p 
+{
+    padding: 10px;
+    margin: 5px 5px ;
+}
